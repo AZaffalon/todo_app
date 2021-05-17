@@ -1,0 +1,12 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+ @use 'components';
+
+  // Variable works here so it means I have to find a way to @use or @forward it
+  // $headers-font: 'Sintony', sans-serif;
+
+  // nav ul li{
+  //   font-family: $headers-font;
+  // }

@@ -1,0 +1,28 @@
+// import of index file config folder
+// @use '../config' as *;
+@import '../config/colors';
+@import '../config/fonts';
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: $regular-purple;
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    list-style: none;
+
+    li {
+      margin-right: 15px;
+      font-family: $body-font;
+    }
+
+    li:hover {
+      cursor: pointer;
+    }
+  }
+}
